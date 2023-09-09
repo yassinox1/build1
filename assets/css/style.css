@@ -1590,3 +1590,11 @@ img {
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .fixed_container .text_container {
+    font-size: 18px; /* Further reduce font size for smaller screens */
+    line-height: 24px; /* Adjust line height accordingly */
+    margin: 5px auto; /* Reduce margin for smaller screens */
+  }
+}
