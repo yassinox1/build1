@@ -16,7 +16,7 @@
 </head>
 
 <body id="the_body" style="margin:0; height:100%; font-family: 'Lato', sans-serif;">
-  <div class="fixed_container">
+  <!-- <div class="fixed_container">
     <div class="center_container">
       <div class="page_wrapper" style="overflow:hidden;">
         <p class="text_container">Complétez le schéma ci-dessous pour Accédez <br />à des<strong> récompenses exclusives</strong> en un clic !</p>
@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="landing_page" id="landing_page">
     <div class="step_container">
@@ -163,27 +163,33 @@
 
   </div>
   <script type="text/javascript">
-    var lock = new PatternLock("#createPattern");
-    lock1 = new PatternLock('#comparePattern', {
-      enableSetPattern: true
-    });
-    lock1.setPattern('7415369');
-    lock1.disable();
-    lock.checkForPattern('7415369', function () {
-      $('#createPattern').removeClass('bounceInLeft').addClass('bounceOutLeft');
-      $('#comparePattern').removeClass('bounceInRight').addClass('bounceOutRight');
-      $('.icon-lock').removeClass('icon-lock').addClass('icon-unlocked');
-      setTimeout(function () {
+    // var lock = new PatternLock("#createPattern");
+    // lock1 = new PatternLock('#comparePattern', {
+    //   enableSetPattern: true
+    // });
+    // lock1.setPattern('7415369');
+    // lock1.disable();
+    // lock.checkForPattern('7415369', function () {
+    //   $('#createPattern').removeClass('bounceInLeft').addClass('bounceOutLeft');
+    //   $('#comparePattern').removeClass('bounceInRight').addClass('bounceOutRight');
+    //   $('.icon-lock').removeClass('icon-lock').addClass('icon-unlocked');
+    //   setTimeout(function () {
+    //     $('.fixed_container').hide();
+    //     $('.landing_page').fadeIn();
+    //   }, 500);
+
+
+    // }, function () {
+    // });
+    // $('#createPattern').hover(function () {
+    //   $('.hand_container').fadeOut();
+    // });
+
+    setTimeout(function () {
         $('.fixed_container').hide();
         $('.landing_page').fadeIn();
       }, 500);
 
-
-    }, function () {
-    });
-    $('#createPattern').hover(function () {
-      $('.hand_container').fadeOut();
-    });
   </script>
 </body>
 
