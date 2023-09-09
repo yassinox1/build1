@@ -1587,6 +1587,6 @@ img {
 }
 @media (max-width: 870px) {
   .hand_container {
-    display: none;
+    /* display: none; */
   }
 }
