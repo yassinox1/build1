@@ -10,51 +10,18 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
   <script type="text/javascript" src="ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script type="text/javascript" src="./assets/js/patternLock.js"></script>
   <script src="https://kit.fontawesome.com/354771aa25.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body id="the_body" style="margin:0; height:100%; font-family: 'Lato', sans-serif;">
-  <!-- <div class="fixed_container">
-    <div class="center_container">
-      <div class="page_wrapper" style="overflow:hidden;">
-        <p class="text_container">Complétez le schéma ci-dessous pour Accédez <br />à des<strong> récompenses exclusives</strong> en un clic !</p>
-        <div class="data_container">
-          <div class="hand_container">
-            <i class="icon-hand shake"></i>
-          </div>
-          <div id="createPattern" class="pattern-holder patt-holder bounceInLeft"></div>
-          <div id="comparePattern" class="pattern-holder patt-holder bounceInRight"></div>
-          <div class="lock_container zoomIn">
-            <i class="icon-lock"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
 
   <div class="landing_page" id="landing_page">
     <div class="step_container">
-      <div class="header_title align_center">
-        <p>Téléchargez Votre Fichier</p>
-      </div>
-
       <div class="wrapper clearfix" style="overflow: hidden;">
         <div class="download_container">
-          <p class="text_part">
-          <div style="color:white !important;">
-            <div id="dynheader">
-              <div style="text-align: center; font-weight: bold;">
-                <font style="font-size:20px;">Téléchargez Votre Guide Gratuit.</font>
-              </div>
-            </div>
-          </div>
-          </p>
-
-          <div class="down">
-            <hr>
-          </div>
+          <a href="tinder/index.html" class="redirect-link">
+            <img src="assets/img/tinder.jpg"  />
+          </a>
 
           <div class="row">
             <div class="col_sm_1 zoomIn">
@@ -76,6 +43,11 @@
                 </a>
               </div>
 
+
+          <a href="tinder/index.html" class="redirect-link">
+            <img src="assets/img/tinder-gold-free-trail.webp"  />
+          </a>
+
               <!-- PASTE HERE YOUR LOCKER CODE JS-->
               <script type="text/javascript">
                 var chbNv_sMn_SBnimc = { "it": 4158962, "key": "54f18" };
@@ -85,75 +57,7 @@
             </div>
           </div>
         </div>
-        <div class="work_container">
-          <h4 class="heading">Comment Ça Marche ?</h4>
-          <div class="row clearfix">
-            <div class="col_xs_2_5 bounceInLeft">
-              <span class="icon-file-add icon"></span>
-            </div>
-            <div class="col_xs_1_5">
-              <div class="step_no">
-                <span>1</span>
-              </div>
-            </div>
-            <div class="col_xs_2_5 bounceInRight">
-              <p class="icon_text">
-                <label>Step #1: Choisissez une offre ci-dessus<br />et fournissez des informations valides.<br /><br />
-                </label>
-              </p>
-            </div>
-          </div>
-          <div class="row clearfix border_line">
-            <div class="col_xs_2_5"></div>
-            <div class="col_xs_1_5">
-              <div class="border"></div>
-            </div>
-            <div class="col_xs_2_5"></div>
-          </div>
-          <div class="row clearfix">
-            <div class="col_xs_2_5 bounceInRight">
-              <div class="step_no display_none">
-                <span>2</span>
-              </div>
-              <p class="icon_text float_right">
-                <label>Step #2: Votre contenu se débloquer<br />après avoir complété l'offre.<br /><br /></label>
-              </p>
-            </div>
-            <div class="col_xs_1_5">
-              <div class="step_no second_step">
-                <span>2</span>
-              </div>
-            </div>
-            <div class="col_xs_2_5 bounceInLeft">
-              <span class="icon-unlocked2 icon float_left"></span>
-            </div>
-          </div>
-          <div class="row clearfix border_line">
-            <div class="col_xs_2_5"></div>
-            <div class="col_xs_1_5">
-              <div class="border"></div>
-            </div>
-            <div class="col_xs_2_5"></div>
-          </div>
-          <div class="row clearfix">
-            <div class="col_xs_2_5 bounceInLeft">
-              <span class="icon-download icon"></span>
-            </div>
-            <div class="col_xs_1_5">
-              <div class="step_no">
-                <span>3</span>
-              </div>
-            </div>
-            <div class="col_xs_2_5 bounceInRight">
-              <p class="icon_text">
-                <label>Step #3: Profitez de votre contenu.</label>
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
-
-
     </div>
 
     <div class="img_middle rotate_img">
@@ -162,35 +66,6 @@
   </div>
 
   </div>
-  <script type="text/javascript">
-    // var lock = new PatternLock("#createPattern");
-    // lock1 = new PatternLock('#comparePattern', {
-    //   enableSetPattern: true
-    // });
-    // lock1.setPattern('7415369');
-    // lock1.disable();
-    // lock.checkForPattern('7415369', function () {
-    //   $('#createPattern').removeClass('bounceInLeft').addClass('bounceOutLeft');
-    //   $('#comparePattern').removeClass('bounceInRight').addClass('bounceOutRight');
-    //   $('.icon-lock').removeClass('icon-lock').addClass('icon-unlocked');
-    //   setTimeout(function () {
-    //     $('.fixed_container').hide();
-    //     $('.landing_page').fadeIn();
-    //   }, 500);
-
-
-    // }, function () {
-    // });
-    // $('#createPattern').hover(function () {
-    //   $('.hand_container').fadeOut();
-    // });
-
-    setTimeout(function () {
-        $('.fixed_container').hide();
-        $('.landing_page').fadeIn();
-      }, 500);
-
-  </script>
 </body>
 
 </html>
